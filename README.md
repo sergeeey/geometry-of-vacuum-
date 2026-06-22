@@ -101,3 +101,24 @@ Open questions and verification requests: [`open_questions/README.md`](open_ques
 
 If you find a flaw in any verified claim — please open an issue.  
 A successful falsification is a contribution.
+
+---
+
+## Links
+
+### Tom Lawrence (foundational framework)
+- [LinkedIn](https://www.linkedin.com/in/tomrlawrence/)
+- [Research site](https://trlinsight.co.uk)
+- [arXiv:2203.09473](https://arxiv.org/abs/2203.09473) — foundational preprint
+- [Video lecture](https://youtu.be/UPSd0Z8_PhA) — introductory talk
+
+### This research
+- [Lab repository](https://github.com/sergeeey/N-7-GeoSpectra-Lab) — 2,200+ tests, all experiments
+- [Research Findings Summary](FINDINGS.md)
+- [About the Author](book/00_about_author.md)
+
+### Author
+- [LinkedIn](https://www.linkedin.com/in/sergey-boyko-researcher/) — Sergey Boyko
+- [ORCID](https://orcid.org/0009-0009-2178-5701)
+- [Ronin Institute](https://ronininstitute.org)
+- **Contact:** sergey.boyko@ronininstitute.org
