@@ -4,7 +4,7 @@
 **Lab (code + all tests):** [N-7-GeoSpectra-Lab](https://github.com/sergeeey/N-7-GeoSpectra-Lab)
 **Last updated:** June 2026 | **Total tests:** 2,217 (2217 passed, 4 skipped†)
 
-† Skipped tests are platform/environment-specific — see skip reasons in [N-7-GeoSpectra-Lab](https://github.com/sergeeey/N-7-GeoSpectra-Lab).
+† Skipped breakdown: 2 × `test_large_r_limit[R<2.0]` — parametrized edge-case guard (R=0.5, R=1.0 are outside the large-R asymptotic regime); 2 × `test_g60_geometric_np_parameters` — λ_geom and A_np differ from fitted values by >10%, which flags open question Q4 (λ disambiguation not yet resolved). None are platform-specific — all are honest INVESTIGATE markers for known open questions.
 
 ---
 
