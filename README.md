@@ -36,11 +36,16 @@ This UV-finite point leads to a KKLT-like stabilization structure with geometric
 | S³×S⁶ admits one SM-like fermion generation (Pati-Salam identification, correct quantum numbers) | ✅ Verified | Cartan structure equations, SymPy |
 | Three generations **cannot** be derived from S³×S⁶ geometry | ✅ **Theorem T1** | 14 mechanisms, all NULL → [details](null_results/THEOREM_T1.md) |
 | UV pole residue `c₁/₂ = 0` at `ρ₆* ≈ 1.090` | ✅ Verified | 1739 automated tests |
-| KKLT-like stabilization: `ρ_min = 1.179`, geometric `λ ∈ {1/3, π/9}` | ✅ Verified | 1830 automated tests |
-| Casimir energy zero at `ρ₆** ∈ (1.2, 1.5)` — Bolzano bracket proof | ✅ Verified | Sign-change bracket |
+| KKLT-like stabilization: `ρ_min = 1.179`, geometric `λ ∈ {1/3, π/9}` | ✅ Verified (each candidate) · ⚠️ λ choice open ([Q4](open_questions/README.md)) | 1830 automated tests |
+| Casimir energy zero at `ρ₆** ∈ (1.2, 1.5)` — Bolzano bracket proof | ✅ Zero exists · ⚠️ Stability pending ([Q3](open_questions/README.md)) | Sign-change bracket |
 | Mass ratio prediction `m_mod / m_KK ≈ 2%` | ✅ Derived | From zero-fit chain, pending external review |
 
 All claims are backed by reproducible Python code in the lab repository.
+
+> **Note on Theorem T1 and N_gen = 3:** These results are consistent, not contradictory.
+> T1 proves that *single-bundle* mechanisms (c₃ = 6) cannot yield N_gen = 3 on S⁶.
+> The NGEN3 result uses *three separate bundles* (c₃ = 2 each) — a construction T1 does not preclude.
+> T1 closes a family of approaches; NGEN3 opens a different one. See [NGEN3_TRIALITY.md](verified/NGEN3_TRIALITY.md).
 
 ---
 

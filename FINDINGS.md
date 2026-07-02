@@ -2,7 +2,9 @@
 
 **Repository:** [geometry-of-vacuum](https://github.com/sergeeey/geometry-of-vacuum-)
 **Lab (code + all tests):** [N-7-GeoSpectra-Lab](https://github.com/sergeeey/N-7-GeoSpectra-Lab)
-**Last updated:** June 2026 | **Total tests:** 2,217 (2217 passed, 4 skipped)
+**Last updated:** June 2026 | **Total tests:** 2,217 (2217 passed, 4 skipped†)
+
+† Skipped tests are platform/environment-specific — see skip reasons in [N-7-GeoSpectra-Lab](https://github.com/sergeeey/N-7-GeoSpectra-Lab).
 
 ---
 
