@@ -2,7 +2,7 @@
 
 **Repository:** [geometry-of-vacuum](https://github.com/sergeeey/geometry-of-vacuum-)
 **Lab (code + all tests):** [N-7-GeoSpectra-Lab](https://github.com/sergeeey/N-7-GeoSpectra-Lab)
-**Last updated:** June 2026 | **Total tests:** 2,217 (2217 passed, 4 skipped†)
+**Last updated:** July 2026 | **Total tests:** 2,954 (2950 passed, 4 skipped†)
 
 † Skipped breakdown: 2 × `test_large_r_limit[R<2.0]` — parametrized edge-case guard (R=0.5, R=1.0 are outside the large-R asymptotic regime); 2 × `test_g60_geometric_np_parameters` — λ_geom and A_np differ from fitted values by >10%, which flags open question Q4 (λ disambiguation not yet resolved). None are platform-specific — all are honest INVESTIGATE markers for known open questions.
 
@@ -16,6 +16,7 @@
 | N_gen = 3 exactly (SO(8) triality + index theorem) | G73–G75 | ~100 | [→ NGEN3_TRIALITY.md](verified/NGEN3_TRIALITY.md) |
 | UV selection: c_{1/2} = 0 at ρ₆* ≈ 1.090 | G65 | 24/24 | [→ UV_SELECTION.md](verified/UV_SELECTION.md) |
 | Compactification ρ_min ≈ 1.179, κ = √(7/6) analytic, zero SM input | G62–G66 | ~200 | [→ KKLT_STABILIZATION.md](verified/KKLT_STABILIZATION.md) |
+| c_S3 (G94) = 1/(2·g_s): valid window implies g_s ∈ (1.344, 2.016) | G102 | 6/6 | [→ C_S3_G_S_RELATION.md](verified/C_S3_G_S_RELATION.md) · ⚠️ exact prefactor [WEAK-MEDIUM] |
 
 ---
 
@@ -41,6 +42,14 @@ for N_gen selection fail on S⁶. This is a theorem, not a failure.
 
 Full null result index: [null_results/THEOREM_T1.md](null_results/THEOREM_T1.md)
 
+### Additional Null Results (July 2026)
+
+| Category | What Was Ruled Out | Key Experiments |
+|----------|--------------------|-----------------|
+| 8_v via G₂-padding | Category mismatch: G₂ generators ≠ Clifford-module actions; no canonical 7-of-14 selection | G101 ([→](null_results/G101_VECTOR_CHANNEL.md)) |
+| Yukawa Z₃-texture | S³ triality status unknown; algebraic constraint forces pure diagonal texture | G99 ([→](null_results/G99_YUKAWA_Z3.md)) |
+| B-L as coset holonomy | Coset commutation test non-discriminating; cannot distinguish B-L from any diagonal so(6) Cartan | G98 ([→](null_results/G98_BL_HOLONOMY.md)) |
+
 > **Total null experiments documented:** 25+
 > Null results are a scientific contribution — they prevent future researchers from
 > repeating dead-end approaches.
@@ -52,9 +61,11 @@ Full null result index: [null_results/THEOREM_T1.md](null_results/THEOREM_T1.md)
 | Question | Status |
 |----------|--------|
 | Why c_{1/2} = 0 at ρ₆*? | OPEN — geometric origin requires Tom Lawrence's framework |
-| G72: 8_v bundle geometric realization | OPEN — requires input from Tom Lawrence |
+| 8_v bundle geometric realization | OPEN — correct path requires Spin(8) triality + Cl(0,8), not G₂-padding (G101) |
+| B-L geometric origin (isometry vs. holonomy) | OPEN — coset test uninformative; G15 result stands (SO(6) holonomy) |
+| G44 vs G73 reconciliation | OPEN — triality invisible on S⁶ (G44) vs. 3 distinct bundles (G73) writeup gap |
 | Full SM: coupling constants, particle masses | NOT ATTEMPTED |
-| External mathematical peer review | Pending (June 2026) |
+| External mathematical peer review | Pending (July 2026) |
 
 ---
 

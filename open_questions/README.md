@@ -72,4 +72,27 @@ But the argument is from group theory, not from an explicit spinor construction.
 
 ---
 
-*Last updated: 2026-06-22*
+## Priority 4 — Escalated from lab (July 2026)
+
+**Q7: Reconciliation of G44 (REJECT) with G73 (PROMOTE)**
+
+G44 (2026-06-20) found that D4 triality is invisible on S³×S⁶ because G₂ (the S⁶
+isotropy group) has no 8-dim irrep — therefore 8_v = 8_s = 8_c = 7⊕1 identically as
+G₂-modules, and the triality orbit collapses to size 1 on S⁶.
+
+G73 (2026-06-21, the N_gen = 3 result) proceeds via a "three topologically distinct
+bundles with the same rep content" argument and notes that all three 8-dim reps have
+the same G₂-content — so G73 is aware of the G44 fact. However, the explicit
+reconciliation of why G73 is *not* contradicted by G44's REJECT verdict has never
+been written down in the repo.
+
+A legitimate resolution exists (topologically distinct bundles can share identical
+fiber representation content without being identical bundles), but it has not been
+formalized. This is a writeup gap, not necessarily a physics gap.
+
+*What would answer it:* An explicit statement of which topological invariant distinguishes
+the three bundles in G73 while sharing the same G₂-module structure as found by G44.
+
+---
+
+*Last updated: 2026-07-02*
